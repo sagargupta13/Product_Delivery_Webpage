@@ -1,0 +1,130 @@
+.img_carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Caption_Container {
+  margin: 20px 20px;
+  padding: 10px 10px;
+  width: 90%;
+
+  font-weight: bolder;
+  background-color: black;
+  color: whitesmoke;
+}
+.caption_box {
+  position: absolute;
+  height: 35vh;
+  width: 80%;
+  left: 0px;
+  right: 20px;
+  background-color: black;
+  opacity: 0.7;
+}
+.img_carousel .Caption_Container h1 {
+  font-size: 45px;
+  height: 30px;
+  
+  margin-bottom: 100px;
+ 
+  color: white;
+  font-weight: bold;
+}
+.img_carousel .Caption_Container p {
+  
+  font-size: 30px;
+  
+}
+.Caption_Container button {
+  width: 120px;
+  height: 30px;
+  margin: 5px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: goldenrod;
+  border-radius: 5px;
+}
+
+
+/* media querry for mobile view  */
+@media only screen and (max-width: 600px) {
+  .img_carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Caption_Container {
+    margin: 20px 20px;
+    padding: 10px 10px;
+    width: 90%;
+
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+  }
+  .caption_box {
+    position: absolute;
+    height: 25vh;
+    width: auto;
+    left: 20px;
+    right: 20px;
+    background-color: black;
+    opacity: 0.7;
+  }
+  .img_carousel .Caption_Container h1 {
+    font-size: 25px;
+    height: 30px;
+    
+    margin-bottom: 70px;
+   
+    color: white;
+    font-weight: bold;
+  }
+  .img_carousel .Caption_Container p {
+    font-size: 20px;
+    
+  }
+  .Caption_Container button {
+    width: 120px;
+    height: 30px;
+    margin: 5px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 5px;
+  }
+}
+/* media querry for galaxy fold  */
+@media (max-width: 360px) {
+  .caption_box {
+    position: absolute;
+    height: 30vh;
+    width: auto;
+    left: 20px;
+    right: 20px;
+    background-color: black;
+    opacity: 0.7;
+  }
+  .img_carousel .Caption_Container h1 {
+    font-size: 20px;
+    
+   
+  }
+  .img_carousel .Caption_Container p{
+    font-size: 15px;
+  }
+}

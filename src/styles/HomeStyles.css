@@ -1,0 +1,136 @@
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerContainer {
+  /* width: auto;
+    margin-left: 30px; */
+  margin-left: 0;
+  padding: 10px 10px;
+  
+  width: 60%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.75;
+}
+
+.home .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.home .headerContainer p {
+  margin-top: 15px;
+  padding: 0;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.headerContainer button {
+  padding: 5px 5px;
+  margin-top: 25px;
+  background-color: goldenrod;
+  color: whitesmoke;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+/* media querry for mobile view  */
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer {
+    margin-left: 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+  }
+  .home .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    margin: 15px 10px;
+    color: white;
+  }
+  .home .headerContainer p {
+    font-size: 25px;
+  }
+  .headerContainer button {
+    margin-bottom: 20px;
+  }
+}
+/* media querry for galaxy fold  */
+@media (max-width: 360px) {
+  .home .headerContainer p {
+    font-size: 25px;
+    margin-top: 55px;
+  }
+}
+
+/* Css for the first content on home page  */
+
+.typo_1 h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight:750;
+  margin-bottom: 15px;
+}
+
+.typo_1 h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.typo_1 p{
+ 
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 25px;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+
+.product_specs p{
+font-size: 15px;
+}
+.product_specs h4{
+font-size: 25px;
+color: gray;
+}
+
+
