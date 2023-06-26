@@ -10,7 +10,7 @@ const About = () => {
      
       my:10,
       textAlign:'center',
-      p:2,
+      p:5,
       "& h4":{
         fontWeight:"bold",
         my:2,
@@ -32,13 +32,15 @@ const About = () => {
       }
     }}>
       <Typography variant='h4'>
-        Lorem ipsum dolor sit.
+      Lightyear is an all-in-one Electronics development platform for all kinds of business.
       </Typography>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam, ipsam doloremque expedita temporibus suscipit ad natus quis. Repudiandae voluptatum fugit iste ipsam est ab! Dignissimos atque animi quibusdam esse asperiores, inventore voluptatibus dolores ad perferendis natus quidem fugit deleniti porro minus voluptates ut nihil! Dolorum libero eos esse atque porro, fuga maiores necessitatibus impedit odio veniam dignissimos debitis aliquam magnam incidunt harum, odit, expedita assumenda deleniti nulla officia! Incidunt saepe et, quam autem excepturi corporis! Corrupti, harum amet? Vel quibusdam odit ipsum necessitatibus doloribus. Iste nostrum et quod? Beatae optio nihil soluta? Veniam asperiores laborum, vel qui in ea.</p>
+      <p>Lightyear is not just about business, it’s about a purpose; A purpose to make a positive impact on the world. Lightyear was founded by two dreamers and doers, who are always fascinated by the intricacy and beauty of human endeavour in general and technology in particular. We specialize in development of Flexible Electronics or also known as FlexTech/Flex circuits/FPCs.</p>
       <br/>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum necessitatibus impedit veritatis provident ipsa voluptatem! Impedit, distinctio sunt repellat fugiat nostrum inventore blanditiis voluptatibus! Quae repellat saepe, iure voluptate qui officiis et dolores expedita excepturi tempore nemo provident voluptates cupiditate? Commodi laudantium dignissimos tempore sequi praesentium quas est asperiores voluptatem facere? Doloribus corporis accusamus necessitatibus, perspiciatis ipsa error suscipit nostrum nam eum sed ducimus maxime eaque in quaerat illo cumque dolorum pariatur animi. Corrupti provident id iusto vero veritatis voluptas numquam officiis natus, consequuntur minus voluptates hic non deleniti dolores dolorum itaque earum dolor quod commodi ab. Totam, velit alias?
+      We love to design, create and produce cutting edge products for people and businesses who believe in us. We can develop and deliver electronic systems for various substrates like PEEK, Silicon, Polymide, Metal foils etc. We strive to keep our work unique and smart, with room for a little magic.
       </p>
+      <br/>
+      <p>You can find us anywhere, and if the project is the right fit, we’d love to work with you or make new friends.</p>
     </Box>
     </Layout>
   )

@@ -6,10 +6,10 @@ import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Cardimg1 from "../images/1672988441.jpg";
-import Cardimg2 from "../images/1672997822.jpg";
-import Cardimg3 from "../images/jcb_1.jpg";
-import Cardimg4 from "../images/jcb_2.jpg";
+import Cardimg1 from "../images/pcbimg5.jpg";
+import Cardimg2 from "../images/pcimg3.jpg";
+import Cardimg3 from "../images/pcbimg1.jpg";
+import Cardimg4 from "../images/pcbimg4.jpg";
 
 // import { styled, alpha } from "@mui/material/styles";
 
@@ -150,7 +150,7 @@ const CardContainer = () => {
                     borderColor: "black",
                   }}
                 >
-                  VIEW MACHINES
+                  VIEW PRODUCTS
                 </Button>
               </Link>
             </CardActions>
@@ -189,7 +189,7 @@ const CardContainer = () => {
                     borderColor: "black",
                   }}
                 >
-                  VIEW MACHINES
+                VIEW PRODUCTS
                 </Button>
               </Link>
             </CardActions>
@@ -197,26 +197,80 @@ const CardContainer = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Card style={styles.card}>
-            <CardMedia
-              style={styles.media}
-              image={Cardimg3}
-              title="Card Media"
-            />
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
+            <CardActionArea>
+              <CardMedia
+                style={styles.media}
+                image={Cardimg3}
+                title="Card Media"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Link to={"/products"}>
+                <Button
+                  variant="outlined"
+                  endIcon={<ArrowForwardIosIcon sx={{ height: "15px" }} />}
+                  sx={{
+                    borderRadius: "26px",
+                    height: "50px",
+                    p: "5px 35px",
+                    fontWeight: "bold",
+                    marginBottom: "30px",
+                    color: "black",
+                    borderColor: "black",
+                  }}
+                >
+                  VIEW PRODUCTS
+                </Button>
+              </Link>
+            </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Card style={styles.card}>
-            <CardMedia
-              style={styles.media}
-              image={Cardimg4}
-              title="Card Media"
-            />
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
+            <CardActionArea>
+              <CardMedia
+                style={styles.media}
+                image={Cardimg4}
+                title="Card Media"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Link to={"/products"}>
+                <Button
+                  variant="outlined"
+                  endIcon={<ArrowForwardIosIcon sx={{ height: "15px" }} />}
+                  sx={{
+                    borderRadius: "26px",
+                    height: "50px",
+                    p: "5px 35px",
+                    fontWeight: "bold",
+                    marginBottom: "30px",
+                    color: "black",
+                    borderColor: "black",
+                  }}
+                >
+                  VIEW PRODUCTS
+                </Button>
+              </Link>
+            </CardActions>
           </Card>
         </Grid>
       </Grid>

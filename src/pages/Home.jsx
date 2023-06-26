@@ -8,8 +8,9 @@ import "../styles/HomeStyles.css";
 import Layout from "../components/Layout";
 import ImageCarousel from "../components/ImageCarousel";
 import { Box, Button, Container, Typography } from "@mui/material";
-import HomeCard from "../components/HomeCards";
+
 import CardContainer from "../components/CardContainer";
+import ImageSlider from "../components/ImageSlider";
 
 
 
@@ -17,7 +18,8 @@ const Home = () => {
   return (
     <Layout>
       <div>
-        <ImageCarousel />
+        {/* <ImageCarousel /> */}
+        <ImageSlider/>
       </div>
       <Box sx={{p:'20px 20px'}}>
         <Typography className="typo_1">
@@ -83,7 +85,7 @@ const Home = () => {
     </Box>
     <br/>
     <br/>
-    {/* <HomeCard/> */}
+    
     <br/>
     <br/>
     <CardContainer/>
